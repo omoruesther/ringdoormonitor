@@ -1,0 +1,210 @@
+body {
+    background: white;
+    color: black;
+    font-family: helvetica Neue,helvetica,arial,helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ /* HEADER */
+
+header {
+    background:black;
+    background-image: url(images/Ringdoor\ logo.png);
+    background-size: 100%;
+    background-position:center;
+   padding: 20px ;
+   height: 400px;       
+   text-align: center;
+}
+
+header a {
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+header h1 {
+    color: rgb(4, 32, 48);
+    text-align: center;
+}
+header .mobile {
+display: none;
+}
+header .logo a {
+    background-image:url("images/background.jpg");
+    background-size:80px;
+    background-repeat: no-repeat;
+display: inline-block;
+height: 80px;
+position: relative;
+text-indent:-9999999px;
+top: -30px;
+width: 150px;
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+nav li:first-child {
+    margin-left: 0px;
+}
+/* RESPONSIVE RULES */
+
+@media screen and (max-width:665px){
+    header {
+        height: 250px;
+        background-position: 0 -30px;
+    }
+    header .mobile{
+    display: inline-block;
+}
+header .desktop {
+    display: none;
+}
+}
+@media screen and (max-width:500px){
+    header{
+    height: 200px;
+    background-position: 0 -0px;
+    }
+}
+.first {
+font-family: Alumni Sans Collegiate One;
+    text-align: center;
+background: rgb(115, 161, 245);
+}
+
+.second {
+    font-family: Alumni Sans Collegiate One;
+    text-align: center;
+background: rgb(115, 161, 245);
+}
+.third {
+    font-family: Alumni Sans Collegiate One;
+    text-align: center;
+background: rgb(115, 161, 245);
+}  
+
+
+/* FEATURES */
+
+.features {
+    background:rgb(253, 238, 238);
+    color: grey;
+    padding: 20px;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.features figure{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+
+}
+.features figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: black 0px 0px 10px;
+    width: 200px;
+}
+.features figcaption a {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*Fingers*/
+
+.fingers {
+    background:rgb(253, 238, 238);
+    color: grey;
+    padding: 20px;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.fingers figure{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+
+}
+.fingers figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: black 0px 0px 10px;
+    width: 200px;
+}
+.fingers figcaption a {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/*Filters*/
+
+.filters {
+    background:rgb(253, 238, 238);
+    color: grey;
+    padding: 20px;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.filters figure{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+
+}
+.filters figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: black 0px 0px 10px;
+    width: 200px;
+}
+.filters figcaption a {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* FOOOTER */
+
+footer {
+    background:black ;
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+
+    
